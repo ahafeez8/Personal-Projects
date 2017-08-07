@@ -1,3 +1,10 @@
+This project is programmed on Arudino Due and other hardware involves:
+  ESP8266 (WiFi chip): https://www.amazon.com/DIYmall-ESP8266-ESP-01S-Serial-Transceiver/dp/B00O34AGSU
+  PIR motion Sensor: https://www.amazon.com/Adafruit-LK-918O-SANV-FBACA-PIR-Motion-Sensor/dp/B00JOZTAC6
+  Mini-breadboard
+Data logging was done on thingspeak API: https://thingspeak.com
+
+
 Following are instructions on testing your wifi connection with only ESP8266 and Arduino Due connnected with test-wifi.ino running on arduino.
 
 /*The command lists was used from: http://rancidbacon.com/files/kiwicon8/ESP8266_WiFi_Module_Quick_Start_Guide_v_1.0.4.pdf
