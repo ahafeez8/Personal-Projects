@@ -1,0 +1,195 @@
+@font-face
+{
+	font-family: Raleway-Light;
+	src: url(Raleway-Light.ttf);
+}
+@font-face
+{
+	font-family: Raleway-Heavy;
+	src: url(Raleway-Heavy.ttf);
+}
+.header-all, footer
+{
+	height: 60px;
+	background-image: url("images/bg.jpg");
+	background-size:cover;
+}
+.logo-header
+{
+	margin:0;
+	width: auto;
+	height: auto;
+	position: relative;
+	left: 36%;
+	bottom: 86%;	
+}
+body
+{
+	margin: 0; 
+	padding: 0;
+	font-family:Raleway-Light;
+}
+input[type="submit"]
+{
+	transition:ease-in-out 0.5s;
+	cursor:pointer;
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #1abc9c;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 1px solid #16a085;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+input[type="submit"] span {
+  cursor: pointer;
+  position: relative;
+  transition:ease-in-out 0.5s;
+}
+
+input[type="submit"] span:after {
+  content:'\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition:ease-in-out 0.5s;
+}
+
+input[type="submit"]:hover span {
+  padding-right: 25px;
+}
+
+input[type="submit"]:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+h1{
+	text-align:center;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;	
+}
+.form-style-5{
+    max-width: 600px;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-5 fieldset{
+    border: none;
+}
+.form-style-5 legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+.form-style-5 label {
+    display: block;
+    margin-bottom: 8px;
+}
+.form-style-5 input[type="text"],
+.form-style-5 input[type="tel"],
+.form-style-5 input[type="password"],
+.form-style-5 input[type="date"],
+.form-style-5 input[type="datetime"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="number"],
+.form-style-5 input[type="search"],
+.form-style-5 input[type="time"],
+.form-style-5 input[type="url"],
+.form-style-5 textarea,
+.form-style-5 input[list="country"],
+.form-style-5 input[list="city"],
+.form-style-5 select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 1px 1px grey;
+    box-shadow: 1px 1px grey;
+    margin-bottom: 30px;
+    
+}
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="tel"]:focus,
+.form-style-5 input[type="password"]:focus,
+.form-style-5 input[type="date"]:focus,
+.form-style-5 input[type="datetime"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 input[type="number"]:focus,
+.form-style-5 input[type="search"]:focus,
+.form-style-5 input[type="time"]:focus,
+.form-style-5 input[type="url"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 input[list="city"]:focus,
+.form-style-5 input[list="country"]:focus,
+.form-style-5 select:focus{
+    background: #d2d9dd;
+}
+
+.form-style-5 .number {
+    background: #1abc9c;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 15px 15px 15px 0px;
+}
+
+
+footer{
+ 
+    height: 100px; 
+    width:100%;
+    position:relative;
+    left: 0;
+    bottom: 0; 
+	
+}
+footer img
+{
+	position: absolute;
+	left: 15px;
+	top: 19px;
+}
+@media only screen and (max-width: 1000px) {
+	/****Mobile Landscape 480 Container 100% ****/
+
+	.logo-header{
+		left:36%;
+		bottom:86%;
+	}
+}
+@media only screen and (max-width: 500px) {
+	/****Mobile Landscape 480 Container 100% ****/
+	p{font-size:9px;
+	text-align:left;
+	}
+	.logo-header{
+		left:5%;
+		bottom:45%;
+	}
+}
